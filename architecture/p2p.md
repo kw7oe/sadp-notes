@@ -46,4 +46,3 @@ Distributed computational entities --- each of which is considered **equally imp
   - Peers come and go
 - Small peer-to-peer systems may not be able to consistently achieve quality goals such as performance and availability
 
-# Peer to Peer
