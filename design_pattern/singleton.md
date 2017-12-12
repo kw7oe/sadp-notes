@@ -14,9 +14,14 @@ Application needs one, and only one, instance of an object. Additionally, lazy i
 
 <img src="../images/singleton_structure.png">
 
+### Participants
+- **Singleton**
+  - defines an Instance operation that lets clients access its unique instance. Instance is a class operation
+  - may be responsible for creating its own unique instance.
+
 ### Codes
 
-
+#### Creating `Singleton`
 In `MazeFactory.java`:
 ```java
 public class MazeFactory {
@@ -36,6 +41,7 @@ public class MazeFactory {
 }
 ```
 
+#### Creating `Demo`
 In `Demo.java`:
 ```java
 public class Demo {
@@ -45,16 +51,12 @@ public class Demo {
     factory.createMaze();
   }
 }
+```
 
 Run the code by:
 ```
 cd design_pattern/code/singleton && javac *.java && java Demo
 ```
-
-### Participants
-- **Singleton**
-  - defines an Instance operation that lets clients access its unique instance. Instance is a class operation
-  - may be responsible for creating its own unique instance.
 
 ### Consequences
 The Singleton pattern has several benefits:
