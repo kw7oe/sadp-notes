@@ -19,6 +19,27 @@ An architectural pattern establishes a relationship between:
 - [Service-Oriented Architecture](architecture/soa.md)
 - [Peer to peer](architecture/p2p.md)
 
+### List of tactics
+
+1. Ping/Echo to detect faults. Common side effects are:
+  - Security: How to prevent ping flood attack?
+  - Performance: How to ensure the performance overhead of ping/echo is small?
+  - Modifiability: How to add ping/echo to the existing architecture?
+2. Increase available resources to help performance. Common side effects are:
+  - Cost: Increased resources cost more
+  - Performance: How to utilize the increase resources efficiently?
+3. Scheduling Policy to address efficeint use of resources. Common side effects are:
+  - Modifiability: 
+    - How to add the scheduling policy to existing architecture?
+	- How to change the scheduling policy in the future?
+4. Use an intermediary to address the addition of the scheduler. Common side effects are:
+  - Modifiability: How to ensure all communication pass through the Intermediary?
+5. Restrict Communication Paths to address the concern that all communication passes through the intermediary: Common side effects:
+  - Performance: How to ensure the performance overhead of the intermediary are not exessive?
+6. Maintain multiple copies to increase availability.
+
+
+
 # Design Patterns
 
 ### Creational
