@@ -7,6 +7,7 @@ Ensure a class only has one instance, and provide a global point of access to it
 Application needs one, and only one, instance of an object. Additionally, lazy initizization and global access are necessary.
 
 ### Applicability
+Use Singleton Pattern when:
 - there must exactly one inctance of a clasee, and it must be accessible to clients from a well-known access point.
 - when the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code.
 
