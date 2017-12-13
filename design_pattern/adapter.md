@@ -46,6 +46,7 @@ public interface Adapter {
   public void get12Volt();
   public void get3Volt();
 }
+```
 
 #### Creating `Adapter`
 In `SocketAdapter.java`:
