@@ -12,7 +12,7 @@ Use the Observer pattern in any of following situations:
 
 ### Structure
 
-<img src="../images/singleton_structure.png">
+<img src="../images/observer_structure.png">
 
 ### Participants
 - **Subject**
