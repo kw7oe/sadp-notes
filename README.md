@@ -78,3 +78,9 @@ An architectural pattern establishes a relationship between:
 - [Adapter](design_pattern/adapter.md)
 - [Observer](design_pattern/observer.md)
 - [Singleton](design_pattern/singleton.md)
+
+### References
+
+- Software Architecture in Practice, Third Edition
+- Design Patterns: Elements of Reusable Object-Oriented Software
+- [tutorialpoints](https://www.tutorialspoint.com/design_pattern/index.htm)
