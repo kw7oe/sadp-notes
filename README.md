@@ -6,9 +6,9 @@ An architectural pattern establishes a relationship between:
 - **A problem:** The problem, appropriately generalized, that arises in the given context.
 - **A solution:** A successful architectural resolution to the problem, appropriately abstracted. The solution of a pattern is determined and described by:
   - A set of element types
-- A set of interaction mechanisms or connectors
-- A topological layout of the components
-- A set of semantic constraints covering topology, element behavior and interaction mechanisms
+  - A set of interaction mechanisms or connectors
+  - A topological layout of the components
+  - A set of semantic constraints covering topology, element behavior and interaction mechanisms
 
 ### List of architecture styles
 
