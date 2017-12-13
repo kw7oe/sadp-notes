@@ -25,7 +25,7 @@ Use the Factory Method pattern when
 
 ### Code
 
-#### Creating `AbstractProduct`
+#### Creating `Product`
 In `Shape.java`:
 ```java
 public interface Shape {
@@ -54,7 +54,7 @@ public class Square implements Shape {
 }
 ```
 
-#### Creating `ConcreteFactory`
+#### Creating `ConcreteCreator`
 
 In `ShapeFactory.java`:
 ```java
@@ -88,6 +88,12 @@ public class Demo {
 Run the code by:
 ```
 cd design_pattern/code/factory_pattern && javac *.java && java Demo
+```
+
+#### Output
+```
+Draw square.
+Draw rectangle.
 ```
 
 ### Consequences

@@ -162,6 +162,14 @@ Run the code by:
 cd design_pattern/code/abstract_factory && javac *.java && java Client
 ```
 
+#### Output
+```
+Fill red.
+Fill blue.
+Draw square.
+Draw rectangle.
+```
+
 ### Consequences
 
 #### Benefits

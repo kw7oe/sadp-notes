@@ -59,6 +59,11 @@ Run the code by:
 cd design_pattern/code/singleton && javac *.java && java Demo
 ```
 
+#### Output
+```
+Create Maze.
+```
+
 ### Consequences
 The Singleton pattern has several benefits:
 
