@@ -9,7 +9,7 @@ Application needs one, and only one, instance of an object. Additionally, lazy i
 
 ### Applicability
 Use Singleton Pattern when:
-- there must exactly one inctance of a clasee, and it must be accessible to clients from a well-known access point.
+- there must exactly one inctance of a class, and it must be accessible to clients from a well-known access point.
 - when the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code.
 
 ### Structure

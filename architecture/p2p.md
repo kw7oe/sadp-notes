@@ -17,7 +17,7 @@ Distributed computational entities --- each of which is considered **equally imp
 
 ### Solution
 - In the P2P pattern, components directly interact as peers.
-- All peers are "equal" and no peer or group of peers can be cirtical for the health of the system.
+- All peers are "equal" and no peer or group of peers can be critical for the health of the system.
 - Peer-to-peer communication is typically request/reply interaction.
 - Any component can interact with any other component by requesting its services.
 - Each peer component:

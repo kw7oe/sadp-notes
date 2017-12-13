@@ -38,12 +38,12 @@ A **number of services** are offered by service **providers** and consumed by se
 - a "fire and forget" information exchange.
 - Participants do not have to wait for acknowledgement of receipt
   - because the infrastructure is assumed to have delivered the message sucessfully.
-- The messaging connector can be point-to-pint or publish-subscribe.
+- The messaging connector can be point-to-point or publish-subscribe.
 
 ### Advantages
 - Interoperability
   - Service providers and consumers may run on different platforms.
-- Special SOA components such as registry ot the ESB (Enterprise service bus) allows dynamic reconfiguration
+- Special SOA components such as registry or the ESB (Enterprise service bus) allows dynamic reconfiguration
   - useful when need to replace or add versions of components with no system interruption
 
 ### Disadvantages

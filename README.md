@@ -28,7 +28,7 @@ An architectural pattern establishes a relationship between:
 2. Increase available resources to help performance. Common side effects are:
     - Cost: Increased resources cost more
     - Performance: How to utilize the increase resources efficiently?
-3. Scheduling Policy to address efficeint use of resources. Common side effects are:
+3. Scheduling Policy to address efficient use of resources. Common side effects are:
     - Modifiability:
       - How to add the scheduling policy to existing architecture?
   	- How to change the scheduling policy in the future?
@@ -43,8 +43,8 @@ An architectural pattern establishes a relationship between:
 # Design Patterns
 
 ### Creational
-- Abstract the instantion process
-- Help make a system independent of how its objects are created, composed and represnted
+- Abstract the instantiation process
+- Help make a system independent of how its objects are created, composed and represented
 - **Class patterns:** use inheritance to vary the class that's instantiated
 - **Object patterns:** delegate instantiation to another object
 - Two dominant ideas
@@ -54,7 +54,7 @@ An architectural pattern establishes a relationship between:
   - Give flexibility in what gets created, how it get created and when
 
 ### Stuctural
-- Concern with how classes and objects are composed to form larget structures
+- Concern with how classes and objects are composed to form larger structures
 - **Class patterns:** use inheritance to compose interface or implementations.
   - This allows multiple inheritances to be mixed into one.
 - **Object patterns:** describe ways to compose objects to realize new functionality

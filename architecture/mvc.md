@@ -10,8 +10,8 @@
 <img src="../images/mvc_pattern.png">
 
 ### Context
-- **User interface software** is typically the most frequently modified portion of an intractive application.
-- For this reason, it is important to keep modifcations to the user interface software seperate from the rest of thte system.
+- **User interface software** is typically the most frequently modified portion of an interactive application.
+- For this reason, it is important to keep modifcations to the user interface software seperate from the rest of the system.
 - User often wish to **look at data from different perspectives**, such as bar graph or pie chart.
 - These representations should both reflect the current state of the data.
 

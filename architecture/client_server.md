@@ -22,7 +22,7 @@ There are **shared resources and services** that **large numbers of distributed 
 - The principal connector type for the client server pattern is a data connector driven by **request/reply** protocol used for invoking services.
 
 ### Advantages
-- Seperates client applicatin from the services they used.
+- Seperates client application from the services they used.
 - Simplifies systems by factoring out common services, which are **reusable**
 - Easy to add new clients to system
   - Because servers can be accessed by any number of clients.

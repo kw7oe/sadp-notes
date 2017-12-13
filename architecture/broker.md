@@ -49,5 +49,5 @@ How do we structure distributed software so that the **service users do not need
   - Because of this seperation, when a server become unavailable, a replacement can be make dynamically chosen by the broker.
 - If a server is replaced with a different services, the broker is the only component that needs to know of this change. Client is unaffected.
 - Proxies are commmonly introduced as intermediaries.
-  - To help with the details of the intraction with the broker such as:
+  - To help with the details of the interaction with the broker such as:
     - marshaling and unmarshaling messages.

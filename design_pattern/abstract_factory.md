@@ -180,7 +180,7 @@ The Abstract Factory pattern helps you control the classes of objects that an ap
 
 2. **It makes exchanging product families easy**
 
-The class of a concrete factory appears only once in an application, that is, where it's instantiated. This makes it easy to change the concrete facotry an application uses.
+The class of a concrete factory appears only once in an application, that is, where it's instantiated. This makes it easy to change the concrete factory an application uses.
 
 3. **It promotes consistency among products**
 
