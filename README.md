@@ -1,5 +1,7 @@
 # Architecture Pattern
 
+![Twin Towers](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRftOEa2-yqE98Qn-7wpltr1wGGF0lKFYOaEvYKh0CFGuFCtEs)
+
 An architectural pattern establishes a relationship between:
 
 - **A context:** A recurring, common situation in the world that give rise to a problem.
